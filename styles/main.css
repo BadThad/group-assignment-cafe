@@ -1,0 +1,132 @@
+@font-face {
+    font-family: rockybilly;
+    src: url(../fonts/Rockybilly.ttf);
+}
+
+a {
+    cursor: pointer;
+}
+
+ button:hover {
+    transform: scale(1.1);
+    transition: ease-in-out;
+ }
+
+ h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: rockybilly;
+ }
+
+ .header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background-color: #6A5A3A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.header-main-logo {
+    width: fit-content;
+    padding-left: 128px;
+    display: flex;
+    position: absolute;
+    top: 5px;
+}
+
+.header-main-navigation {
+    position: fixed;
+    right: 128px;
+    display: flex;
+    width: fit-content; 
+}
+
+.header-main-navigation ul {
+    display: inline;   
+}
+
+.header-main-navigation ul li {
+    display: inline;
+    float: left;  
+}
+
+.header-main-navigation ul li a {
+    padding: 0px 20px 0px 20px;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif  
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 270px;
+    width: 100%;
+    background-color: #6A5A3A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 128px;
+    position: fixed;
+    bottom: 0%;
+}
+
+.footer-nav-container {
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: 413px;
+}
+
+.footer-nav {
+    font-size: 16px;
+    line-height: 250%;
+    color: #fff;
+    letter-spacing: 2%;
+    font-family: Arial, Helvetica, sans-serif
+}
+.underline {
+    text-decoration: underline;
+}
+
+.footer h3 {
+    margin-left: 128px;
+}
+
+.footer h5 {
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.socialmedia-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 128px;
+}
+
+.socialmedia-links img {
+    margin: 5px;
+}
+
+.socialmedia-links h5 {
+    margin-bottom: 15px;
+}
