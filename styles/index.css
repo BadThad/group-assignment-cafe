@@ -78,10 +78,10 @@ a {
     background-color: #6A5A3A;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 128px;
+    margin-top: 5%;
     position: fixed;
     bottom: 0%;
 }
