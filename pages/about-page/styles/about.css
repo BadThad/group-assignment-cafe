@@ -1,16 +1,10 @@
 @font-face {
     font-family: rockybilly;
-    src: url(../fonts/Rockybilly.ttf);
+    src: url(/fonts/Rockybilly.ttf);
 }
 
 a {
     cursor: pointer;
-}
-
-h2 {
-    color: #292929;
-    font-size: 20px;
-    font-family: rockybilly; 
 }
 
  button:hover {
@@ -32,6 +26,9 @@ h2 {
     font-family: rockybilly;
  }
 
+
+/* --- Header styles ---*/
+
  .header {
     position: fixed;
     top: 0%;
@@ -43,12 +40,12 @@ h2 {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     z-index: 1000;
 }
 
 .header-main-navigation {
-    position: fixed;
-    right: 128px;
+    margin-right: 128px;
     display: flex;
     width: fit-content; 
 }
@@ -65,14 +62,35 @@ h2 {
 .header-main-navigation ul li a {
     padding: 0px 20px 0px 20px;
     font-size: 16px;
-    color: #EEDFD9;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif  
 }
 
 
+/* --- Main Styles --- */
 
+.main-container {
+    display: flex;
+    align-items: center;
+    padding: 15% 10%;
+    gap: 5%;
+}
 
+h2 {
+    font-family: rockybilly;
+}
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #292929;
+}
+
+.about-img {
+    max-width: 360px;
+    height: auto;
+    border-radius: 100px;
+}
 
 
 /* --- Footer styling --- */
@@ -87,7 +105,6 @@ h2 {
     align-items: center;
     flex-wrap: nowrap;
     margin-top: 5%;
-    position: fixed;
     bottom: 0%;
 }
 
@@ -102,7 +119,7 @@ h2 {
 .footer-nav {
     font-size: 16px;
     line-height: 250%;
-    color: #EEDFD9;
+    color: #fff;
     letter-spacing: 2%;
     font-family: Arial, Helvetica, sans-serif
 }
@@ -112,7 +129,7 @@ h2 {
 
 .footer h5 {
     font-size: 16px;
-    color: #EEDFD9;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif
 }
 
