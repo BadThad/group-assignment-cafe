@@ -72,14 +72,22 @@ a {
 main {
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    justify-content: center;
+    padding-top: 10%;
     padding-left: 128px;
     padding-right: 128px;
     margin-bottom: 10%;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #292929;
+    max-width: 602px;
+}
+
 .contact-form-container {
-    padding-right: 10%;
+    padding-right: 10%;¨
 }
 
 .form-title {
