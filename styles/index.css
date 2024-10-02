@@ -18,8 +18,16 @@ h2 {
     transition: ease-in-out;
  }
 
- h3 {
-    color: #EEDFD9;
+ .logo-container {
+    margin-right: auto;
+    width: fit-content;
+    padding-left: 128px;
+    display: flex;
+    top: 5px;
+ }
+
+ .logo {
+    color: #fff;
     font-size: 18px;
     font-family: rockybilly;
  }
@@ -36,12 +44,6 @@ h2 {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-}
-
-.header-main-logo {
-    width: fit-content;
-    padding-left: 128px;
-    display: flex;
 }
 
 .header-main-navigation {
@@ -70,16 +72,22 @@ h2 {
 
 
 
+
+
+
+/* --- Footer styling --- */
+
 .footer {
     height: 270px;
     width: 100%;
     background-color: #6A5A3A;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     flex-wrap: nowrap;
-    margin-top: 128px;
+    margin-top: 5%;
+    position: fixed;
     bottom: 0%;
 }
 
@@ -88,8 +96,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    right: 413px;
+    margin-right: auto;
 }
 
 .footer-nav {
@@ -101,10 +108,6 @@ h2 {
 }
 .underline {
     text-decoration: underline;
-}
-
-.footer h3 {
-    margin-left: 128px;
 }
 
 .footer h5 {
