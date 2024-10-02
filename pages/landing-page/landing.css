@@ -61,7 +61,7 @@ p {
 
 .value-2 button:hover {
     background-color: #F9C9B4;
-    transition: ease-in-out 600ms;
+    transition: all ease-in-out 600ms;
 }
 
 .value-2 img {
