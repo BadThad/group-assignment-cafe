@@ -71,15 +71,19 @@ a {
 
 /* --- Main Styles ---*/
 
-.gallery-img {
-    width: 381px;
-    height: 553px;
+h2 {
+    display: block;
+    margin-left: 20%;
+    margin-top: 144px;
+    color: #292929;
+    font-size: 20px;
+    font-family: rockybilly; 
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr) ;
-    grid-template-rows: repeat(23, 1fr) ;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(23, 1fr);
     grid-gap: 20px;
     max-width: 1182px;
     max-height: 1679px;
