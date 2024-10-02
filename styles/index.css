@@ -12,7 +12,15 @@ a {
     transition: ease-in-out;
  }
 
- h3 {
+ .logo-container {
+    margin-right: auto;
+    width: fit-content;
+    padding-left: 128px;
+    display: flex;
+    top: 5px;
+ }
+
+ .logo {
     color: #fff;
     font-size: 18px;
     font-family: rockybilly;
@@ -31,14 +39,6 @@ a {
     align-items: center;
     position: relative;
     z-index: 1000;
-}
-
-.header-main-logo {
-    width: fit-content;
-    padding-left: 128px;
-    display: flex;
-    position: absolute;
-    top: 5px;
 }
 
 .header-main-navigation {
@@ -70,7 +70,7 @@ a {
 
 
 
-
+/* --- Footer styling --- */
 
 .footer {
     height: 270px;
@@ -91,8 +91,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    right: 413px;
+    margin-right: auto;
 }
 
 .footer-nav {
@@ -104,10 +103,6 @@ a {
 }
 .underline {
     text-decoration: underline;
-}
-
-.footer h3 {
-    margin-left: 128px;
 }
 
 .footer h5 {
