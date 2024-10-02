@@ -113,6 +113,9 @@ p {
 }
 
 input:placeholder-shown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #292929;
     font-style: italic;
     padding-left: 30px;
 }
@@ -141,16 +144,22 @@ input:placeholder-shown {
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-start;
 }
 
 .contact-btn {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     border: 1px solid;
     border-color: black;
     border-radius: 5px;
     padding: 10px 60px;
     margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background-color: #F9C9B4;
+    transition: all ease-in-out 600ms;
 }
 
 
